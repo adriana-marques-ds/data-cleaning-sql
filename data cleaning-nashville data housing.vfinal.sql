@@ -1,5 +1,3 @@
-.sql linguagem=sql
-
 -- Create a table and import data
 DROP TABLE IF EXISTS HousingData
 CREATE TABLE HousingData (
