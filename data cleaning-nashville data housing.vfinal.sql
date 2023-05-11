@@ -1,3 +1,5 @@
+*.sql linguagem=sql
+
 -- Create a table and import data
 DROP TABLE IF EXISTS HousingData
 CREATE TABLE HousingData (
@@ -25,7 +27,7 @@ CREATE TABLE HousingData (
 -- Perform import using BULK INSERT
 
 BULK INSERT HousingData
-FROM 'C:\Users\adria\OneDrive\¡rea de Trabalho\PROJETOS\Projetos para o Portfolio\data_cleaning\Nashville Housing Data for Data Cleaning.v5.csv'
+FROM 'C:\Users\adria\OneDrive\√Årea de Trabalho\PROJETOS\Projetos para o Portfolio\data_cleaning\Nashville Housing Data for Data Cleaning.v5.csv'
 WITH (
     FIRSTROW = 2, 
     FIELDTERMINATOR = ',', 
