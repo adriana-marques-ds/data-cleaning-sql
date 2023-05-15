@@ -1,6 +1,7 @@
 # Nashville Housing Data Cleaning Script
 
 **Description**
+
 This script aims to perform data cleaning and transformation tasks on the Nashville Housing Data. It includes steps to standardize data formats, fill in missing values, separate address information into individual columns, and handle data inconsistencies. The script's purpose is to enhance the data quality and usability of the Nashville Housing Data for subsequent analysis or applications.
 
 ## Prerequisites
